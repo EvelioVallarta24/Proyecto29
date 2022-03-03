@@ -12,13 +12,13 @@ class Slingshot{
         World.add(world, this.Slingshot);
     }
 
-    //attach(body) {
-      //  this.slingShot.bodyA=body;
-    //}
+    attach(body) {
+      this.Slingshot.bodyA=body;
+    }
 
-    //fly() {
-      //  this.slingShot.bodyA = null;
-    //}
+    fly() {
+      this.Slingshot.bodyA = null;
+    }
 
     display(){
         if (this.Slingshot.bodyA) {
